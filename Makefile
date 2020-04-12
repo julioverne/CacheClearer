@@ -7,8 +7,8 @@ CacheClearer_FRAMEWORKS = CydiaSubstrate UIKit MobileCoreServices CoreGraphics C
 CacheClearer_PRIVATE_FRAMEWORKS = SpringBoardServices Preferences
 CacheClearer_LDFLAGS = -Wl,-segalign,4000
 
-export ARCHS = armv7 arm64
-CacheClearer_ARCHS = armv7 arm64
+export ARCHS = armv7 arm64 arm64e
+CacheClearer_ARCHS = armv7 arm64 arm64e
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 	
